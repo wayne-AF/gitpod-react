@@ -6,6 +6,7 @@ import React from "react";
 //     return <h1>Hello from React, bitch</h1>
 // }
 
+// creating a functional component
 const FunctionalGreeting = () => <h1>Hello from React, cunt</h1>;
 
 export default FunctionalGreeting;

@@ -3,7 +3,10 @@
 import React from "react";
 
 
-const FunctionalGreetingWithProps = () => <h1>Hello from React, whore</h1>;
+const FunctionalGreetingWithProps = (props) => {
+    console.log(props);
+    return <h1>Hello from React, whore. {props.greeting} {props.warning}</h1>;
+}
 
 export default FunctionalGreetingWithProps;
 
